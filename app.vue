@@ -1,6 +1,11 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <Dashboard />
+    <!-- <NuxtRouteAnnouncer /> -->
+    <!-- <NuxtWelcome /> -->
   </div>
 </template>
+
+<script setup>
+import Dashboard from '/pages/index.vue'
+</script>
